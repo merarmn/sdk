@@ -13,7 +13,7 @@
     "access": "public",
     "provenance": true
   },
-  "homepage": "https://docs.bloque.app/sdk",
+"homepage": "https://docs.bloque.app/sdk",  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bloque-app/sdk.git",

@@ -1,0 +1,27 @@
+You are implementing a Bloque SDK integration.
+
+Goal:
+Build a Consumer wallet for alimentos using @bloque/sdk.
+
+Customer identifier:
+libmor01@outlook.com
+
+Selected account capabilities:
+- Card issuing: Virtual cards, limits, controls, and cardholder events.
+- Bre-B rails: Instant local payments connected to the same ledger.
+
+Implementation order:
+1. Install @bloque/sdk.
+2. Initialize an authenticated Bloque SDK session.
+3. Register or resolve the customer identity from the email above.
+4. Create one shared ledger/pocket for the product.
+5. Issue a virtual card connected to that ledger.
+6. Create a BRE-B key on the same ledger.
+- Add transfer flows so funds can move between the card and the selected accounts.
+- Return clear TypeScript functions, typed inputs, error handling, and a minimal usage example.
+
+Use these docs while implementing:
+- SDK start: /es/sdk/guide/start/getting-started
+- Cards: /es/sdk/guide/accounts/cards
+- BRE-B: /es/sdk/guide/accounts/breb
+- Transfers: /es/sdk/guide/accounts/transfers
